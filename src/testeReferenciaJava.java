@@ -2,9 +2,9 @@
 public class testeReferenciaJava {
 
 	public static void main(String[] args) {
-		Funcionario g1 = new Gerente();       //pode definir como funcionario
-		g1.setNome("Marcos");			     // pois todo gerente é um 
-		g1.setSalario(5000.0);			     //não funciona chamar a senha
+		Funcionario g1 = new Gerente();       
+		g1.setNome("Marcos");			     
+		g1.setSalario(5000.0);			    
 		
 		
 		Funcionario ev = new EditorVideo();
