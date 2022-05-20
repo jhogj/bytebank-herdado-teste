@@ -1,5 +1,5 @@
 
-public class Gerente extends Funcionario implements Autenticavel{ //gerente herda a class funcionario
+public class Gerente extends Funcionario implements Autenticavel{ 
 																	// e assina o contrato autenticavel
 	
 	private AutenticadorUtilitario autenticador;
@@ -30,5 +30,3 @@ public class Gerente extends Funcionario implements Autenticavel{ //gerente herd
 }
 
 
-//se usa super ao inves de this, para 
-// referenciar que o salario vem da classe mãe
